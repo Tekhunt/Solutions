@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./week-2-assignment-Tekhunt/secure_resource"
+    ]
+}

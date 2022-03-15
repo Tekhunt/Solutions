@@ -1,0 +1,119 @@
+.main-container {
+    margin-top: 50px;
+    width: 90%;
+    margin: 2% auto;
+    
+}
+
+.nav{
+   margin-bottom: 5%;
+   width: 19%;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+}
+.main img{
+    width: 100%;
+}
+
+.sub-main{
+    width: 100%;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+.sub-main .username{
+    padding-top: 3.75rem;
+}
+.sub-main .username{
+    margin: 20px 0;
+}
+
+.sub-main .heading{
+    display: flex;
+    justify-content: space-between;
+}
+.sub-main .heading .forgot {
+    text-decoration: none;
+    color: black;
+}
+
+.sub-main .username > label{
+    margin-bottom: 20px;
+    font-weight: 400;
+    color:rgb(34, 38, 42);
+    font-size: 14px;
+}
+.text-danger{
+    color:red;
+    font-size: x-large;
+    
+}
+
+input[type=text]{
+    width: 76% !important;
+}
+input[type=email]{
+    margin-top: 10px;
+    padding: 15px 10px;
+    padding-top: 15px;
+    width: 80%;
+    border-radius: 4px;
+    outline: none;
+    border: 2px solid rgb(241, 243, 244);
+}
+
+input[type=text], input[type=submit]{
+    margin-top: 10px;
+    padding: 15px 10px;
+    padding-top: 15px;
+    width: 80%;
+    border-radius: 4px;
+    outline: none;
+    border: 2px solid rgb(241, 243, 244);
+}
+input[type=submit]{
+    background-color: rgb(255, 72, 88);
+    color: white;
+    border:none;
+    padding: 18px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.sub-main .bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.sub-main .bottom .forgot-password > a{
+    text-decoration: none;
+    color: black;
+}
+
+.sub-main .heading .password-in-line {
+    width: 100%;
+    background-color: rgb(255, 72, 88);
+    height: 3px;
+}
+
+@media only screen and (max-width: 767px) {
+    .main{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 10px;
+    }
+    .main img{
+        display: none;
+    }
+    .sub-main{
+        width: 100%;
+        margin-left: -20px;
+    }
+    input[type=text]{
+        width: 75% !important;
+    }
+  }
+  

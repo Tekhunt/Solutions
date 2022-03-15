@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./week-3-assignment-Tekhunt/data",
+        "./week-3-assignment-Tekhunt"
+    ]
+}
